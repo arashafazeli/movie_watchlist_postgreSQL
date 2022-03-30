@@ -62,7 +62,7 @@ def prompt_search_movies():
 
 
 def prompt_add_user():
-    username = input("Username: ")
+    username = input("Username:")
     database.add_user(username)
 
 
