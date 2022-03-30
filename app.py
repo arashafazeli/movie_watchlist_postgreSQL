@@ -38,7 +38,7 @@ def print_movie_list(heading, movies):
 
 
 def prompt_watch_movie():
-    username = input("Username: ")
+    username = input("Username:")
     movie_id = input("Movie ID :")
     database.watch_movie(username, movie_id)
 
